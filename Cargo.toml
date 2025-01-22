@@ -1,0 +1,17 @@
+[package]
+name = "raft-punk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8.4"
+eyre = "0.6.12"
+papaya = "0.1.8"
+rand = "0.8.5"
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.137"
+snafu = { version = "0.8.5", features = ["backtrace"] }
+tokio = { version = "1.43.0", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
